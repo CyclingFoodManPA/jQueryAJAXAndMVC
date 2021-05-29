@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jQueryAJAXAndMVC", "jQueryAJAXAndMVC\jQueryAJAXAndMVC.csproj", "{C55EFE57-472B-48FB-9EEB-D56593E319E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jQueryAJAXAndMVC.Tests", "jQueryAJAXAndMVC.Tests\jQueryAJAXAndMVC.Tests.csproj", "{3115755E-E7D2-4668-BF3D-FB8133240638}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C55EFE57-472B-48FB-9EEB-D56593E319E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C55EFE57-472B-48FB-9EEB-D56593E319E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C55EFE57-472B-48FB-9EEB-D56593E319E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C55EFE57-472B-48FB-9EEB-D56593E319E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3115755E-E7D2-4668-BF3D-FB8133240638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3115755E-E7D2-4668-BF3D-FB8133240638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3115755E-E7D2-4668-BF3D-FB8133240638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3115755E-E7D2-4668-BF3D-FB8133240638}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {289E4289-6985-4AEC-A979-96BC75F47B77}
+	EndGlobalSection
+EndGlobal
