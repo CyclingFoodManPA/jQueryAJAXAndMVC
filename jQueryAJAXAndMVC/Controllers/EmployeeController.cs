@@ -1,11 +1,12 @@
-﻿using System;
+﻿// https://www.codaffection.com/asp-net-mvc-article/asp-net-mvc-with-jquery-ajax/
+
+using jQueryAJAXAndMVC.Context;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.IO;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
-using jQueryAJAXAndMVC.Context;
 
 
 namespace jQueryAJAXAndMVC.Controllers
