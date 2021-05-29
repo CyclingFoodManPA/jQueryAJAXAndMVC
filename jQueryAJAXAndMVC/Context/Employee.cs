@@ -7,11 +7,14 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Web;
+
 namespace jQueryAJAXAndMVC.Context
 {
-    using System;
-    using System.Collections.Generic;
-    
+  
     public partial class Employee
     {
         public int EmployeeID { get; set; }
@@ -19,6 +22,15 @@ namespace jQueryAJAXAndMVC.Context
         public string Position { get; set; }
         public string Office { get; set; }
         public Nullable<int> Salary { get; set; }
+        [DisplayName("Image")]
         public string ImagePath { get; set; }
+
+        [NotMapped]
+        public HttpPostedFileBase ImageUpload { get; set; }
+
+        public Employee()
+        {
+            ImagePath = "~/AppFiles/Images/default.png";
+        }
     }
 }
