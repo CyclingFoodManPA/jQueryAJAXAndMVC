@@ -45,6 +45,10 @@ GO
 ALTER DATABASE [jQueryAjaxDB] SET  READ_WRITE 
 GO
 
+
+USE jQueryAjaxDB;
+GO
+
 INSERT INTO dbo.Employee ([Name], Position, Office, Salary)
 VALUES ('Keith', 'HMFIC', 'At Desk', 90000)
 	, ('Connie', 'The Boss', 'Family Room', 45000)
